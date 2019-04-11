@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../components/header"
 
 const IndexPage = () => (
-  <React.Fragment>
+  <Layout>
     <Header />
-    <SEO title="Home"/>
+    <SEO title="Home" description="Xavier Castro's Personal Website" author="Xavier Castro"/>
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Header 1</h1>
@@ -33,7 +33,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-  </React.Fragment>
+  </Layout>
 )
 
 export default IndexPage
