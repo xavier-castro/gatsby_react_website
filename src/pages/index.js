@@ -24,12 +24,12 @@ const IndexPage = () => (
           </path>
         </svg>
         <div className="Logos">
-          <img src={require('../images/logo-sketch.png')} width="50" />
-          <img src={require('../images/logo-figma.png')} width="50" />
-          <img src={require('../images/logo-studio.png')} width="50" />
-          <img src={require('../images/logo-framer.png')} width="50" />
-          <img src={require('../images/logo-react.png')} width="50" />
-          <img src={require('../images/logo-swift.png')} width="50" />
+          <img src={require('../images/logo-sketch.png')} alt="sketch" width="50" />
+          <img src={require('../images/logo-figma.png')} alt="figma" width="50" />
+          <img src={require('../images/logo-studio.png')} alt="studio" width="50" />
+          <img src={require('../images/logo-framer.png')} alt="framer" width="50" />
+          <img src={require('../images/logo-react.png')} alt="react" width="50" />
+          <img src={require('../images/logo-swift.png')} alt="swift" width="50" />
         </div>
       </div>
     </div>
